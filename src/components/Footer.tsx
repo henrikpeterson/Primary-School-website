@@ -39,7 +39,7 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Phone className="h-4 w-4 mt-1 flex-shrink-0 opacity-75" />
                 <div>
-                  <div>90 66 35 80</div>
+                  <div>90 66 35 80 / 99 45 65 28</div>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
@@ -54,6 +54,7 @@ const Footer = () => {
                 <div>
                   Agoè Vakpossito à 300m<br />
                   du carrefour Fish<br />
+                  à côté du Carrefour Bon Berger <br /> 
                   Grand Lomé, Togo
                 </div>
               </div>

@@ -8,7 +8,7 @@ const Programs = () => {
   const programs = [
     {
       icon: <Baby className="h-8 w-8" />,
-      title: "Préscolaire",
+      title: "Préscolaire & Garderie",
       subtitle: "3-5 ans",
       description: "Formation des petits dans un environnement adapté et sécurisé",
       sections: [
@@ -16,8 +16,8 @@ const Programs = () => {
         "Section 2 - Grands (4-5 ans)"
       ],
       classes: 2,
-      teachers: "2 dames",
-      price: "45.000 FCFA",
+      teachers: "2 Educatrices",
+      price: "70.000 FCFA",
       schedule: "8h à 13h",
       agreement: "n°0-162J/MEPST/CAB/SG/CCAEPLC/SE",
       features: [
@@ -38,8 +38,8 @@ const Programs = () => {
         "3ème cycle : CM1 au CM2"
       ],
       classes: 6,
-      teachers: "3 dames et 3 messieurs",
-      price: "CP1-CM1: 45.000 FCFA / CM2: 50.000 FCFA",
+      teachers: "3 Educatrices et 3 Educateurs",
+      price: "CP1-CM1: 50.000 FCFA / CM2: 55.000 FCFA",
       schedule: "7h à 14h",
       agreement: "n°0/263/P/MEPST/CAB/SG/CCAEPLC/SE",
       features: [
@@ -68,7 +68,7 @@ const Programs = () => {
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Du préscolaire au primaire, nous accompagnons chaque enfant dans son développement 
-            académique et personnel avec des programmes agréés par le ministère.
+            académique et personnel avec des programmes agréés par le ministère de l’enseignement Primaire et Secondaire.
           </p>
         </div>
 

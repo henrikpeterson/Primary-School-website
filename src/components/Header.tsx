@@ -33,7 +33,7 @@ const Header = () => {
           <div className="hidden lg:flex items-center space-x-6 text-sm">
             <div className="flex items-center space-x-2 text-muted-foreground">
               <Phone className="h-4 w-4" />
-              <span>90 66 35 80</span>
+              <span>90 66 35 80 / 99 45 65 28</span>
             </div>
             <div className="flex items-center space-x-2 text-muted-foreground">
               <Mail className="h-4 w-4" />
@@ -82,7 +82,7 @@ const Header = () => {
               <div className="pt-4 border-t border-border space-y-2">
                 <div className="flex items-center space-x-2 text-sm text-muted-foreground">
                   <Phone className="h-4 w-4" />
-                  <span>90 66 35 80</span>
+                  <span>90 66 35 80 / 99 45 65 28</span>
                 </div>
                 <div className="flex items-center space-x-2 text-sm text-muted-foreground">
                   <Mail className="h-4 w-4" />

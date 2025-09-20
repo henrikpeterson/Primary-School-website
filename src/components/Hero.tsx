@@ -33,7 +33,7 @@ const Hero = () => {
               </h1>
               
               <div className="text-xl text-primary-dark font-semibold border-l-4 border-primary pl-4">
-                Sagesse • Discipline • Réussite
+                Sagesse • Discipline • Réussite 
               </div>
               
               <p className="text-lg text-muted-foreground max-w-xl">
@@ -73,11 +73,11 @@ const Hero = () => {
             <div className="flex flex-wrap gap-6 text-sm text-muted-foreground">
               <div className="flex items-center space-x-2">
                 <Users className="h-4 w-4" />
-                <span>Préscolaire & Primaire</span>
+                <span>Préscolaire, Garderie & Primaire</span>
               </div>
               <div className="flex items-center space-x-2">
                 <BookOpen className="h-4 w-4" />
-                <span>Programmes français</span>
+                <span>Programmes en français</span>
               </div>
             </div>
           </div>
@@ -100,6 +100,10 @@ const Hero = () => {
                       alt="Complexe Scolaire La Grandeur - Vue principale"
                       className="w-full h-full object-cover"
                     />
+                    <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
+                      <h3 className="text-white text-3xl font-black mb-3">Nos Élèves</h3>
+                      <p className="text-white/90 text-lg font-semibold">Des moments d'apprentissage enrichissants dans nos classes interactives</p>
+                    </div>
                     <div className="absolute inset-0 bg-primary/10"></div>
                   </div>
                 </CarouselItem>
@@ -110,6 +114,10 @@ const Hero = () => {
                       alt="Complexe Scolaire La Grandeur - Élèves en apprentissage"
                       className="w-full h-full object-cover"
                     />
+                    <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
+                      <h3 className="text-white text-3xl font-black mb-3">Initiation a l'Informatique</h3>
+                      <p className="text-white/90 text-lg font-semibold">Cours d'Informatique du CE1 au CM2</p>
+                    </div>
                     <div className="absolute inset-0 bg-primary/10"></div>
                   </div>
                 </CarouselItem>
@@ -120,26 +128,10 @@ const Hero = () => {
                       alt="Complexe Scolaire La Grandeur - Vue principale"
                       className="w-full h-full object-cover"
                     />
-                    <div className="absolute inset-0 bg-primary/10"></div>
-                  </div>
-                </CarouselItem>
-                  <CarouselItem>
-                  <div className="relative overflow-hidden rounded-2xl shadow-hero w-[600px] h-[500px]">
-                    <img
-                      src={image8}
-                      alt="Complexe Scolaire La Grandeur - Vue principale"
-                      className="w-full h-full object-cover"
-                    />
-                    <div className="absolute inset-0 bg-primary/10"></div>
-                  </div>
-                </CarouselItem>
-                                <CarouselItem>
-                  <div className="relative overflow-hidden rounded-2xl shadow-hero w-[600px] h-[500px]">
-                    <img
-                      src={image11}
-                      alt="Complexe Scolaire La Grandeur - Vue principale"
-                      className="w-full h-full object-cover"
-                    />
+                    <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
+                      <h3 className="text-white text-3xl font-black mb-3">Sortie scolaire</h3>
+                      <p className="text-white/90 text-lg font-semibold">Journée de découvertes et d’aventures pour nos élèves.</p>
+                    </div>
                     <div className="absolute inset-0 bg-primary/10"></div>
                   </div>
                 </CarouselItem>
@@ -150,13 +142,6 @@ const Hero = () => {
               <CarouselNext className="absolute right-4 top-1/2 -translate-y-1/2 bg-card/80 backdrop-blur-sm border-border hover:bg-card" />
             </Carousel>
             
-            {/* Badge flottant */}
-            <div className="absolute -bottom-6 -left-6 bg-card p-6 rounded-xl shadow-card border border-border">
-              <div className="text-center">
-                <div className="text-2xl font-bold text-primary">15+</div>
-                <div className="text-sm text-muted-foreground">Années d'expérience</div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

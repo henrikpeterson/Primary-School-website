@@ -8,7 +8,7 @@ const Contact = () => {
     {
       icon: <Phone className="h-5 w-5" />,
       title: "Téléphone",
-      value: "90 66 35 80",
+      value: "90 66 35 80 / 99 45 65 28",
       action: "tel:90663580",
       actionText: "Appeler"
     },
