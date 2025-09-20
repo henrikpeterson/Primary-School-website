@@ -33,20 +33,20 @@ const PracticalInfo = () => {
 
   const fees = [
     {
-      level: "Préscolaire",
-      amount: "45.000 FCFA",
+      level: "Préscolaire, Garderie",
+      amount: "70.000 FCFA",
       note: "Fournitures non incluses",
       classes: "Toutes sections"
     },
     {
       level: "Primaire CP1 à CM1",
-      amount: "45.000 FCFA",
+      amount: "50.000 FCFA",
       note: "Fournitures non incluses",
       classes: "5 niveaux"
     },
     {
       level: "Primaire CM2",
-      amount: "50.000 FCFA",
+      amount: "55.000 FCFA",
       note: "Fournitures non incluses",
       classes: "Classe d'examen"
     }
