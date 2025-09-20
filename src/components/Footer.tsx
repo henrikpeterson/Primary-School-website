@@ -66,7 +66,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold">Horaires</h4>
             <div className="space-y-3 text-sm">
               <div>
-                <div className="font-medium">Préscolaire</div>
+                <div className="font-medium">Préscolaire & Garderie</div>
                 <div className="opacity-75">Lun-Ven: 8h à 13h</div>
               </div>
               <div>

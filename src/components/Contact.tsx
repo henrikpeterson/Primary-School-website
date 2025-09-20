@@ -87,6 +87,7 @@ const Contact = () => {
                   <div className="font-semibold text-primary">Complexe Scolaire La Grandeur</div>
                   <div className="text-muted-foreground">
                     Agoè Vakpossito à 300m du carrefour Fish<br />
+                    à côté du Carrefour Bon Berger <br /> 
                     Grand Lomé, Togo
                   </div>
                 </div>
