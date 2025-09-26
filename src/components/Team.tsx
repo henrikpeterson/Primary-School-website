@@ -37,7 +37,7 @@ const Team = () => {
     },
     {
       level: "Primaire",
-      count: "3 Educatrices et 3 Educateurs",
+      count: "2 Instituteurs et 4 Institutrices",
       description: "Enseignement fondamental selon le programme officiel",
       icon: <BookOpen className="h-5 w-5" />,
       classes: "6 classes"
