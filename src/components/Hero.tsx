@@ -49,7 +49,7 @@ const Hero = () => {
                 <div className="text-sm text-muted-foreground">Classes</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">8</div>
+                <div className="text-2xl font-bold text-primary">6</div>
                 <div className="text-sm text-muted-foreground">Enseignants</div>
               </div>
               <div className="text-center">
@@ -131,6 +131,20 @@ const Hero = () => {
                     <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
                       <h3 className="text-white text-3xl font-black mb-3">Sortie scolaire</h3>
                       <p className="text-white/90 text-lg font-semibold">Journée de découvertes et d’aventures pour nos élèves.</p>
+                    </div>
+                    <div className="absolute inset-0 bg-primary/10"></div>
+                  </div>
+                </CarouselItem>
+                <CarouselItem>
+                  <div className="relative overflow-hidden rounded-2xl shadow-hero w-[600px] h-[500px]">
+                    <img
+                      src={image10}
+                      alt="Complexe Scolaire La Grandeur - Vue principale"
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
+                      <h3 className="text-white text-3xl font-black mb-3">Garderie</h3>
+                      <p className="text-white/90 text-lg font-semibold">Un environnement sécurisé et stimulant pour le développement de vos enfants.</p>
                     </div>
                     <div className="absolute inset-0 bg-primary/10"></div>
                   </div>

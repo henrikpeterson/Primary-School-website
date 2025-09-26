@@ -3,6 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Baby, GraduationCap, BookOpen, Users, Clock, Euro } from "lucide-react";
 import studentsImage from "@/assets/students-learning.jpg";
+import SchoolImgage1 from "@/assets/SchoolEntry.jpg"
 
 const Programs = () => {
   const programs = [
@@ -30,7 +31,7 @@ const Programs = () => {
     {
       icon: <GraduationCap className="h-8 w-8" />,
       title: "Primaire",
-      subtitle: "6-11 ans",
+      subtitle: "À partir de 5 ans",
       description: "Enseignement fondamental selon le programme officiel",
       sections: [
         "1er cycle : CP1 au CP2",
@@ -38,12 +39,12 @@ const Programs = () => {
         "3ème cycle : CM1 au CM2"
       ],
       classes: 6,
-      teachers: "3 Educatrices et 3 Educateurs",
+      teachers: "2 Instituteurs et 4 Institutrices",
       price: "CP1-CM1: 50.000 FCFA / CM2: 55.000 FCFA",
       schedule: "7h à 14h",
       agreement: "n°0/263/P/MEPST/CAB/SG/CCAEPLC/SE",
       features: [
-        "Programme français complet",
+        "Programme en français",
         "Anglais dès le CP1",
         "Informatique CE1-CM2",
         "Travaux manuels"
@@ -68,7 +69,7 @@ const Programs = () => {
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Du préscolaire au primaire, nous accompagnons chaque enfant dans son développement 
-            académique et personnel avec des programmes agréés par le ministère de l’enseignement Primaire et Secondaire.
+            académique et personnel avec des programmes agréés par le Ministère de L’Enseignement Primaire et Secondaire.
           </p>
         </div>
 
@@ -173,7 +174,7 @@ const Programs = () => {
             
             <div className="relative">
               <img
-                src={studentsImage}
+                src={SchoolImgage1}
                 alt="Élèves en apprentissage"
                 className="w-full h-80 object-cover rounded-xl shadow-card"
               />

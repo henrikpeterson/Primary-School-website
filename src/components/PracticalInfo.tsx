@@ -15,20 +15,31 @@ const PracticalInfo = () => {
       schedule: "7h à 14h",
       description: "Lundi à vendredi",
       icon: <Clock className="h-5 w-5" />
+    },
+     {
+      level: "Tous les niveaux", 
+      schedule: "Mercredi",
+      description: "Fin des cours a 11h30 pour tous les niveaux",
+      icon: <Clock className="h-5 w-5" />
     }
   ];
 
   const breaks = [
     {
-      time: "9h à 9h10",
-      type: "Récréation matinale",
-      duration: "10 minutes"
+      time: "9h10 à 9h30",
+      type: "Primaire : Récréation matinale",
+      duration: "20 minutes"
     },
     {
       time: "11h30 à 12h10",
       type: "Grande récréation",
       duration: "40 minutes"
-    }
+    },
+    {
+      time: "",
+      type: "Prescolaire : 2 Récréations bien adaptees suivant les activites",
+      duration: ""
+    },
   ];
 
   const fees = [
