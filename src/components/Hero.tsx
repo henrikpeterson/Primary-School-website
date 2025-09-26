@@ -73,7 +73,7 @@ const Hero = () => {
             <div className="flex flex-wrap gap-6 text-sm text-muted-foreground">
               <div className="flex items-center space-x-2">
                 <Users className="h-4 w-4" />
-                <span>Préscolaire, Garderie & Primaire</span>
+                <span>Garderie, Préscolaire & Primaire</span>
               </div>
               <div className="flex items-center space-x-2">
                 <BookOpen className="h-4 w-4" />
